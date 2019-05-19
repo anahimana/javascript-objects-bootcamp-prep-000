@@ -5,7 +5,7 @@ function updatePlaylist(obj, artistName, songTitle) {
 }
 
 function removeFromPlaylist(obj, artistName) {
-  return delete obj[artistName];
+  return delete obj[artistName]; 
 }
 
 const playlist = new Object({ "Ying Yang Twins": "Get Low"});
